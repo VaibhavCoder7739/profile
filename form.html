@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        <h1>HTML Form</h1>
+        <label for="fn" >First Name:</label>
+        <input placeholder="Enter your first name" type="text" id="fn" name="Username" required="true"><br>
+        <label for="ln">Last name:</label>
+        <input placeholder="Enter your last name" type="text" id="ln" required="true"><br>
+        <label >Password</label>
+        <input placeholder="Enter your Password" type="password"><br>
+        <label>Date of Birth:</label>
+        <input placeholder="Enter your DOB" type="date"    ><br>
+        <label>Email id:</label>
+        <input placeholder="Enter your Email" type="email"><br>
+        <label for="gender">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="gender">
+        <label for="Female">Female</label>
+        <input value="Male" type="radio" id="Female" name="gender"><br>
+        <label>Mobile Number:</label>
+        <input placeholder="Enter your MOBILE No." type="number"><br>
+        <label for="cn">Country</label>
+        <select name="country" id="cn">
+        <option value="India">India</option>
+        <option value="Uk">UK</option>
+        <option value="US">US</option>
+        </select><br>
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" required="true"><br>
+        <label for="range">Range</label>
+        <input type="range" id= "range" name="points" min="0" max="10"><br>
+        <!-- <button>SUBMIT</button>// we can do same thing with input also
+        <button>RESET</button> -->
+        <input type="submit" value="SUBMIT">
+        <input type="submit" value="RESET"><br>
+        <label for="description">Description:</label><br>
+        <textarea name="description" id="description" cols="30" rows="4" placeholder="please write here"></textarea><br>
+        <iframe width="300" height="315" src="https://en.wikipedia.org/wiki/Wiki#Trust_and_security"></iframe>
+    </form>
+</body>
+</html>
